@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<HTML>
+<BODY>
+
+<H2>An unordered HTML list</H2>
+
+<UL STYLE="list-style-type:disc;"><!--In unordered list we can also use STYLE="circle" OR "square" OR "none"-->
+  <LI>Coffee</LI>
+  <LI>Tea</LI>
+  <LI>Milk</LI>
+</UL>
+
+<H2>Ordered List with Lowercase Roman Numbers</H2>
+
+<OL TYPE="i"><!--In ordered list we can also use TYPE="A" OR "a" OR "I" OR "i"-->
+  <LI>BlackCoffee</LI>
+  <LI>HotTea</LI>
+  <LI>ButterMilk</LI>
+</OL>  
+
+<H2>A Description List</H2>
+
+<DL>
+  <DT>Coffee</DT><!--DT defines the terms(name)-->
+  <DD>- black hot drink</DD><!--DD describes each term-->
+  <DT>Milk</DT>
+  <DD>- white cold drink</DD>
+</DL> 
+
+<H2>A Nested List</H2>
+<P>List can be nested (lists inside lists):</P>
+
+<UL>
+  <LI>Coffee</LI>
+  <LI>Tea
+    <UL>
+      <LI>Black tea</LI>
+      <LI>Green tea</LI>
+    </UL>
+  </LI>
+  <LI>Milk</LI>
+</UL>
+
+<H2>The start attribute(control list counting)</H2>
+<P>By default, an ordered list will start counting from 1. Use the start attribute to start counting from a specified number:</P>
+
+<OL START="50">
+  <LI>Coffee</LI>
+  <LI>Tea</LI>
+  <LI>Milk</LI>
+</OL>
+
+<OL TYPE="I" START="50">
+  <LI>Apple</LI>
+  <LI>Grapes</LI>
+  <LI>Mangoes</LI>
+</OL>
+
+</BODY>
+</HTML>
