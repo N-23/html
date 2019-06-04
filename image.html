@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<STYLE>
+IMG {
+  width: 100%;
+}
+</STYLE>
+</HEAD>
+<!--<BODY STYLE="BACKGROUND-IMAGE:URL('clouds.jpg');"><H2>BACK GROUND IMAGE</H2></BODY>for background image-->
+<BODY>
+
+<IMG SRC="html5.gif" ALT="HTML5 Icon" WIDTH="128" HEIGHT="128">
+
+<PRE>
+<IMG SRC="html5.gif" ALT="HTML5 Icon" STYLE="width:128px;height:128px;">
+</PRE>
+
+<!--Images on Another Server-->
+<PRE>
+<IMG SRC="https://www.w3schools.com/images/w3schools_green.jpg" ALT="W3Schools.com" WIDTH="100" HEIGHT="500"> 
+</PRE>
+
+<!--Animated Images-->
+<PRE>
+<IMG SRC="programming.gif" ALT="Computer Man" STYLE="width:48px;height:48px;"> 
+</PRE>
+
+<!--Image as a link-->
+<PRE>
+<A HREF="default.asp">
+<IMG SRC="smiley.gif" ALT="HTML tutorial" STYLE="width:42px;height:42px;border:0;">
+</A> 
+</PRE>
+
+<!--Image Floating-->
+<PRE>
+<P><IMG SRC="smiley.gif" ALT="Smiley face" STYLE="float:right;width:42px;height:42px;">
+The image will float to the right of the text.</P>
+</PRE>
+<PRE>
+<P><IMG SRC="smiley.gif" ALT="Smiley face" STYLE="float:left;width:42px;height:42px;">
+The image will float to the left of the text.</P> 
+</PRE>
+
+<!--Image Maps-->
+<PRE>
+<P>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</P>
+
+<IMG SRC="workplace.jpg" ALT="Workplace" USEMAP="#workmap" WIDTH="400" HEIGHT="379">
+
+<MAP NAME="workmap">
+  <AREA SHAPE="rect" COORDS="34,44,270,350" ALT="Computer" HREF="computer.htm">
+  <AREA SHAPE="rect" COORDS="290,172,333,250" ALT="Phone" HREF="phone.htm">
+  <AREA SHAPE="circle" COORDS="337,300,44" ALT="Cup of coffee" HREF="coffee.htm">
+</MAP>
+</PRE>
+
+<!--Backgound Image-->
+<PRE>
+<P STYLE="background-image:url('clouds.jpg');">
+You can specify background images<BR>
+for any visible HTML element.
+</P>
+</PRE>
+
+<!--Picture Element-->
+<PRE>
+<H2>The picture Element</H2>
+
+<PICTURE>
+  <SOURCE MEDIA="(min-width: 650px)" SRCSET="img_pink_flowers.jpg">
+  <SOURCE MEDIA="(min-width: 465px)" SRCSET="img_white_flower.jpg">
+  <IMG SRC="img_orange_flowers.jpg" ALT="Flowers" STYLE="width:auto;">
+</PICTURE>
+</PRE>
+
+</BODY>
+</HTML> 
